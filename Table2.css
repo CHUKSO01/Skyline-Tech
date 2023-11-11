@@ -1,0 +1,40 @@
+table,th,td{
+
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: lightgrey;
+    margin: auto;
+    padding: 17px;
+    /* border-bottom: 1px solid; */
+    
+
+
+}
+table{
+
+    width: 100%;
+    font-size: 20px;
+}
+
+th{
+
+    background-color: dodgerblue;
+    padding: 20px;
+    
+    
+}
+.container{
+
+    width: 80%;
+    margin: auto;
+    
+}
+tr:nth-child(even){
+
+    background-color: lightgrey;
+}
+
+tr:hover{
+
+    background-color: darkgray;
+}
