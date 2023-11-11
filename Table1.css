@@ -1,0 +1,54 @@
+table,th,td{
+
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    border-color: rgb(140, 126, 126);
+    margin: auto;
+
+
+}
+
+table{
+
+    width: 100%;
+    font-size: 20px;
+}
+th{
+
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+}
+.container{
+
+    width: 80%;
+    text-align: center;
+    background-color: white;
+}
+td,th{
+
+    padding: 15px;
+}
+tr:hover{
+
+    background-color: darkgray;
+}
+td input[type=button]{
+
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 3px;
+    width: 60px;
+}
+
+.fa-xmark{
+
+    background-color: red;
+    border-radius: 3px;
+}
+
+.fa-check{
+
+    background-color: green;
+    border-radius: 3px;
+}
